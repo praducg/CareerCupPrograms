@@ -5,6 +5,7 @@ import java.util.Locale;
 //This class takes string input and validates the given input can be converted to palindrome .
 //If the string length has even length then all character will have same count
 //If the string length has odd length then at max one character can have odd count
+//https://www.topjavatutorial.com/java/java-programs/java-program-to-check-if-a-string-is-permutation-of-a-palindrome
 public class FindPermutation {
     //This class provides an idea of permutation of string
     public static void main(String[] args) {
