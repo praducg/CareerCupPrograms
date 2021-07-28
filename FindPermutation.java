@@ -2,10 +2,13 @@ package com.learning.careercup.programs;
 
 import java.util.Locale;
 
+//This class takes string input and validates the given input can be converted to palindrome .
+//If the string length has even length then all character will have same count
+//If the string length has odd length then at max one character can have odd count
 public class FindPermutation {
     //This class provides an idea of permutation of string
     public static void main(String[] args) {
-        boolean result=checkPalindromeString("tact coa");
+        boolean result=checkPalindromeString("tact ");
         System.out.println(result);
 
     }
